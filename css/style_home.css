@@ -1,0 +1,137 @@
+/* HOMEPAGE
+-----------------------------------------*/
+.home {
+    background: url(../images/bookshelf.jpg) no-repeat 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.home header {
+    max-width: 1000px;
+    display: inline-block;
+    position: static;
+    background: transparent;
+    text-align: center;
+    text-align: center;
+    padding: 50px 0;
+    color: #F1DEB8; /*Gold gilt*/
+    background: rgba(20, 38, 46, 0.87); /*Darkened version of Of Human Bondage*/
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 4px ridge #F1DEB8; /*Gold gilt*/
+}
+
+.home header h1 {
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.home header h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.home header h4 {
+  color: #FFFFFF;
+}
+
+.home section {
+  padding-top: 0px;
+}
+
+.home a {
+  color: #FFFFFF;
+}
+
+.home footer {
+  color: #FFFFFF;
+}
+
+
+
+
+/* HEADER
+-----------------------------------------*/
+header,
+section, body {
+  padding: 20px 30px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+section {
+  padding-top: 175px;
+}
+
+header h1 {
+  /* For all of h1 except the accent words which will follow 'span' */
+  color: #FFFFFF;
+  font-family: "open sans";
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0px 0px 16px;
+  text-transform: uppercase;
+}
+
+.accent-white {
+  color: #FFFFFF;
+  font-family: "gentium book basic";
+  text-transform: none;
+  font-style: italic;
+  /* For the Patricia in Patricia Gillett-Kawamoto */
+}
+
+h2 {
+  font-family: "gentium book basic";
+  font-style: italic;
+}
+
+h1, h2 {
+    margin: 0; /* removes default space */
+    line-height: 1; /* tightens up the space between the headings */
+}
+
+h4 {
+  font-family: "gentium book basic";
+  font-style: italic;
+}
+
+
+/* For the nav menu
+-----------------------------------------*/
+
+nav ul {
+    list-style-type: none; /* removes bullets */
+    margin: 0; /* removes default margin */
+    padding: 0; /* removes default padding */
+}
+
+nav ul li {
+    display: inline-block; /* gets the list items to line up side by side */
+}
+
+nav a {
+    display: block; /* changes the element to block */
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+
+
+/*
+-----------------------------------------*/
+body {
+  color: #2F240F;
+  font-family: 'gentium book basic', serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
