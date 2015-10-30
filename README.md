@@ -1,0 +1,1 @@
+The homepage portion of the little kitune website, such as the splash page and Trish's resume.  The resume is based on [this one](https://github.com/discardthree/llc-css-fundamentals) and the splash page is based on the one [here](https://github.com/discardthree/llc-html-css-multi-page-site).
