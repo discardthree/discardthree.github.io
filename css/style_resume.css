@@ -203,13 +203,16 @@ header h1 {
   float: right;
 }
 
-.item {
-    border-bottom: 1px solid #F1DEB8; /*Gold gilt*/
-    margin-bottom: 15px;
+.subsection h2{
+    border-top: 1px solid #F1DEB8; /*Gold gilt*/
 }
 
-.item:last-child {
-    border-bottom: none;
+.subsection h2:first-child {
+    border-top: none;
+}
+
+.item {
+    margin-bottom: 15px;
 }
 
 .company {
@@ -252,12 +255,18 @@ header h1 {
      color: #F5E2CD; /*Gold gilt*/
  }
 
-.skills-list ul li {
-   font-size: 18px;
+ .skills-list ul li {
+    font-size: 18px;
+  }
+
+.skills-list ul li a {
+   font-style: normal;
  }
 
+
 .skills-circles ul li {
-  color: #22424F; /*Of Human Bondage teal (34, 66, 79)*/
+
+  text-decoration: none;color: #22424F; /*Of Human Bondage teal (34, 66, 79)*/
   font-weight: 700;
   background: #F1DEB8; /*Gold gilt*/
   display: inline-block;
@@ -268,7 +277,10 @@ header h1 {
   line-height: 150px;
   font-size: 18px;
 }
-
+.skills-circles ul li a {
+  color: #22424F; /*Of Human Bondage teal (34, 66, 79)*/
+  font-style: normal;
+}
 .skills-circles span {
     display: inline-block;
     line-height: normal;
