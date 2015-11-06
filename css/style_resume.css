@@ -181,7 +181,7 @@ header h1 {
   width: 27%;
   margin-right: 3%;
   border-radius: 50%;
-  border: 5px solid #F1DEB8; /*Gold gilt*/
+  border: 5px ridge #F1DEB8; /*Gold gilt*/
 }
 
 
