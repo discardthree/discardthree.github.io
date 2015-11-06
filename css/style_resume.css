@@ -154,8 +154,8 @@ header h1 {
  Profile section
  =================*/
 .profile {
-  background: linear-gradient(rgba(32, 68, 100, 0.92), rgba(32, 68, 100, 1)); /*Vanity Fair royal blue*/
- clear: both;
+  background: linear-gradient(rgba(32, 68, 100, 0.68), rgba(32, 68, 100, 1)); /*Vanity Fair royal blue*/
+  clear: both;
  }
 
 .profile h2 {
@@ -195,7 +195,12 @@ header h1 {
  Work experience section
  =================*/
 .work-experience {
-   background: #833B46; /*Autobiography red-orange*/
+   background: linear-gradient(rgba(131, 59, 70, 0.96), rgba(131, 59, 70, 0.96)),
+               url(../images/bookshelf.jpg); /*Autobiography red-orange*/
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   position: 40%;
  }
 
 .details {
@@ -232,7 +237,7 @@ header h1 {
  Skills
  =================*/
  .skills {
-   background: linear-gradient(rgba(20, 38, 46, 0.9), rgba(34, 66, 79, 0.9)),
+   background: linear-gradient(rgba(20, 38, 46, 0.96), rgba(34, 66, 79, 0.93)),
                url(../images/bookshelf.jpg); /*gradient is from a darkened Of Human Bondage color to the regular Of Human Bondage color*/
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -297,7 +302,12 @@ header h1 {
   Education
   =================*/
  .education {
-   background: #5C2F46; /*War and Peace burgundy*/
+   background: linear-gradient(rgba(92, 47, 70, 1.0), rgba(92, 47, 70, 0.93)),
+               url(../images/bookshelf.jpg); /*War and Peace burgundy, solid at top and a little transparent at bottom*/
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   postition: 40%;
  }
 
 
@@ -306,4 +316,10 @@ header h1 {
   =================*/
  .contact {
    background: #2F3C5F; /*The House of the Seven Gables navy*/
+   background: linear-gradient(rgba(47, 60, 95, .92), rgba(47, 60, 95, .98)),
+               url(../images/bookshelf.jpg); /*War and Peace burgundy, solid at top and a little transparent at bottom*/
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   postition: 40%;
  }
