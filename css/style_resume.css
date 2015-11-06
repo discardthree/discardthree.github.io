@@ -139,10 +139,17 @@ header h1 {
     top: 0;
     right: 0;
     display: inline-block;
-    background: #2980b9;
+    background: #14262E;
     padding: 18px;
     text-decoration: none; /* removes underline */
     color: #fff;
+    margin: 0 auto;
+    border: 4px ridge #F1DEB8; /*Gold gilt*/
+    border-radius: 6px;
+    font-style: normal;
+    text-align: center;
+    color: #FFE9CC; /*Gold gilt*/
+    font-size: 18px;
 }
 
 /*================
