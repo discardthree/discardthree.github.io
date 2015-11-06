@@ -111,14 +111,12 @@ header {
 }
 
 .content-wrap-header {
-  background: rgba(20, 38, 46, 0.87); /*Darkened version of Of Human Bondage*/
-  /*background: rgba(34, 66, 79, 0.6);*/
-  /* rgba(39,22,20,0.75); /*Darkened version of Divine Comedy Rust*/
+  background: rgba(20, 38, 46, 0.89); /*Darkened version of Of Human Bondage*/
   display: inline-block;
   margin: 0 auto;
   padding: 30px;
   border: 4px ridge #F1DEB8; /*Gold gilt*/
-  /*border-radius: 30px;*/
+  border-radius: 6px;
 }
 
 header h1 {
